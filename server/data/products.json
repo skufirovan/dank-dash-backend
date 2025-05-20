@@ -1,0 +1,77 @@
+{
+  "products": {
+    "success": true,
+    "data": [
+      {
+        "id": 1,
+        "image": "/images/sunflower.jpg",
+        "name": "Подсолнух",
+        "description": "Микрозелень подсолнуха с насыщенным вкусом ореха.",
+        "price": 120
+      },
+      {
+        "id": 2,
+        "image": "/images/pea.jpeg",
+        "name": "Горох",
+        "description": "Хрустящие ростки зелёного гороха.",
+        "price": 100
+      },
+      {
+        "id": 3,
+        "image": "/images/radish.jpeg",
+        "name": "Редис",
+        "description": "Острая и сочная микрозелень редиса.",
+        "price": 110
+      },
+      {
+        "id": 4,
+        "image": "/images/broccoli.jpeg",
+        "name": "Брокколи",
+        "description": "Полезные ростки брокколи, богаты витаминами.",
+        "price": 130
+      },
+      {
+        "id": 5,
+        "image": "/images/basil.jpeg",
+        "name": "Базилик",
+        "description": "Ароматная микрозелень базилика для салатов.",
+        "price": 140
+      },
+      {
+        "id": 6,
+        "image": "/images/mustard.jpeg",
+        "name": "Горчица",
+        "description": "Пикантная зелень с горчичным вкусом.",
+        "price": 105
+      },
+      {
+        "id": 7,
+        "image": "/images/amaranth.jpeg",
+        "name": "Амарант",
+        "description": "Нежная микрозелень с лёгким земляным вкусом.",
+        "price": 125
+      },
+      {
+        "id": 8,
+        "image": "/images/cilantro.jpeg",
+        "name": "Кинза",
+        "description": "Свежая микрозелень кинзы с характерным ароматом.",
+        "price": 115
+      },
+      {
+        "id": 9,
+        "image": "/images/alfalfa.jpg",
+        "name": "Люцерна",
+        "description": "Классическая микрозелень для бутербродов и салатов.",
+        "price": 95
+      },
+      {
+        "id": 10,
+        "image": "/images/arugula.jpg",
+        "name": "Рукола",
+        "description": "Острая микрозелень руколы, придающая вкус.",
+        "price": 135
+      }
+    ]
+  }
+}
