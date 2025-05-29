@@ -30,6 +30,25 @@ class MailService {
       console.log(e);
     }
   }
+
+  async sendOrderInformationMail(to, order_composition) {
+    try {
+      await this.transporter.sendMail({
+        from: `"Dank Dash" <${process.env.SMTP_USER}`,
+        to,
+        subject: 'Новый заказ',
+        html: `
+          <div>
+              <h1>Заказ успешно оформлен</h1>
+              <h3>Вы заказали:</h3>
+              <p>${order_composition}</p>
+          </div>
+        `,
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  }
 }
 
 module.exports = new MailService();
